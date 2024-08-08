@@ -59,7 +59,7 @@ function App() {
     <>
       {!initialized && <Welcome Start={Start} />}
       {initialized && (
-        <BrowserRouter>
+        <BrowserRouter basename="/Text_Tactics_App">
           <Navbar title={"Text Tectics"} darkModeFunc={darkMode} mode={mode} />
           <Alert alert={alert} Capitalize={Capitalize} />
           <div className="container p-0">
