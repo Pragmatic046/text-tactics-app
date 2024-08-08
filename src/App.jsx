@@ -66,12 +66,12 @@ function App() {
             <Routes>
               <Route
                 exact
-                path="/about"
+                path="https://pragmatic046.github.io/Text_Tactics_App/about"
                 element={<About mode={mode} />}
               ></Route>
               <Route
                 exact
-                path="/"
+                path="https://pragmatic046.github.io/Text_Tactics_App/"
                 element={
                   <TextForm
                     showAlert={showAlert}
