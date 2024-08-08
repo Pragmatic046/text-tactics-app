@@ -1,6 +1,6 @@
 {
-  "homepage": "http://pragmatic046.github.io/Text_Tactics_App",
-  "name": "temporary",
+  "homepage": "http://pragmatic046.github.io/text-tactics-app",
+  "name": "text-tactics-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
