@@ -29,6 +29,7 @@ export default function TextForm({ mode, heading, showAlert, Capitalize }) {
     let CopyText = document.getElementById("text-box");
     CopyText.select();
     CopyText.setSelectionRange(0, CopyText.value.length);
+    // document.getSelection().removeAllRanges();
     navigator.clipboard.writeText(CopyText.value);
     showAlert("Text Copied !", "success");
   };
@@ -131,7 +132,7 @@ export default function TextForm({ mode, heading, showAlert, Capitalize }) {
             <p>
               <span className="fw-bolder">
                 {text !== ""
-                  ? (0.008 * text.trim().split(/\s+/gm).length).toFixed(2)
+                  ? (0.008 * text.trim().split(/\s+/).length).toFixed(2)
                   : 0}
               </span>{" "}
               Minutes take to read
