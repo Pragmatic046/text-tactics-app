@@ -95,7 +95,7 @@ export default function About({ mode }) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              The development of the <strong>Text Tectics</strong> Website App
+              The development of the <strong>Text Tactics</strong> Website App
               owes its success to the dedication and expertise of{" "}
               <strong className="text-danger">Mr Abdul Ahad Khan</strong> and
               <strong className="text-danger"> Mr Muhammad Haris</strong>. These

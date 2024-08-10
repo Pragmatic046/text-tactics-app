@@ -115,7 +115,7 @@ export default function TextForm({ mode, heading, showAlert, Capitalize }) {
             <p>
               <span className="fw-bolder">
                 {
-                  text.split(" ").filter((element) => {
+                  text.split(/\s+/).filter((element) => {
                     return element.length !== 0;
                   }).length
                 }
